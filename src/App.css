@@ -1,0 +1,149 @@
+/*
+.app-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.tarjeta-flash {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.tarjeta-flash h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+
+.tarjeta-flash p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cccccc;
+  margin-bottom: 10px;
+}
+
+.tarjeta-flash strong {
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.tarjeta-flash hr {
+  display: none;
+}
+
+.tarjeta-flash h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.tarjeta-flash ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #999999;
+}
+
+.tarjeta-flash li {
+  padding: 6px 0;
+  font-size: 1.05rem;
+  border: none;
+}
+
+.pregunta {
+  margin-top: 60px;
+  font-size: 1rem;
+  font-style: italic;
+  color: yellow;
+}
+*/
+
+.app-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.titulo-principal {
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.4; 
+  margin-bottom: 40px;
+}
+
+.tarjeta-personaje {
+  border: 1px solid #333333;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 16px;
+  align-items: center;
+}
+
+.info-personaje {
+  flex-grow: 1;
+  text-align: left;
+  color: #ffffff;
+}
+
+.info-personaje strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.info-personaje p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.especie {
+  color: #aaaaaa;
+  margin-bottom: 2px !important;
+}
+
+.estatus {
+  font-weight: 500;
+}
+
+.status-alive {
+  color: #4caf50;
+}
+
+.status-dead {
+  color: #f44336;
+}
+
+.status-unknown {
+  color: #aaaaaa;
+}
+
+.boton-perfil {
+  color: #4dd0e1 !important;
+  border-color: #4dd0e1 !important;
+}
+
+.boton-perfil:hover {
+  background-color: rgba(0, 188, 212, 0.1) !important;
+  border-color: #00bcd4 !important;
+}
